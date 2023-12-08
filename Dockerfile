@@ -1,9 +1,9 @@
 FROM openjdk:11
 
-COPY target/WebService2-0.0.1-SNAPSHOT.war  /usr/app/
+COPY target/spring-backend-app.jar /usr/app/
 
 WORKDIR /usr/app/
 
-ENTRYPOINT ["java", "-jar", "WebService2-0.0.1-SNAPSHOT.war"]
+ENTRYPOINT ["java", "-jar", "spring-backend-app.jar"]
 
 EXPOSE 8080
