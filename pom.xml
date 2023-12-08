@@ -10,8 +10,7 @@
 	</parent>
 	<groupId>com.wcs</groupId>
 	<artifactId>WebService2</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<version>1.0.RELEASE</version>
 	<name>WebService2</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
