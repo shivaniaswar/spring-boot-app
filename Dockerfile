@@ -1,9 +1,9 @@
 FROM openjdk:11
 
-COPY target/app.jar  /usr/app/
+COPY target/WebService2-0.0.1-SNAPSHOT.war  /usr/app/
 
 WORKDIR /usr/app/
 
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "WebService2-0.0.1-SNAPSHOT.war"]
 
 EXPOSE 8080
